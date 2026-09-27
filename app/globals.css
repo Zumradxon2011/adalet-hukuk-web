@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+/*
+ * Adalet Hukuk design tokens — matched to the approved Figma design
+ * (file CMK4O4CWV8QX048Ww97HSp). Do not hand-tune these ad hoc; update
+ * here so every page stays in sync.
+ */
+:root {
+  --color-ink: #1c1c18; /* primary heading/text color (warm near-black) */
+  --color-navy: #131c26; /* dark surfaces: buttons, header dark accents, dark sections */
+  --color-ink-soft: #44474b; /* body copy */
+  --color-label: #615e57; /* eyebrows, meta labels, uppercase micro-copy */
+  --color-ivory: #fcf9f3; /* page background */
+  --color-card: #f6f3ed; /* card background */
+  --color-surface-alt: #f0eee8; /* alternate section background */
+  --color-muted: #ebe8e2; /* icon chip background */
+  --color-stone: #e7e2d9; /* badge / pill background */
+  --color-burgundy: #641f2a;
+  --color-burgundy-dark: #4a1620;
+  --color-navy-tint: #dae3f1; /* light text on navy surfaces */
+  --color-navy-muted: #7b8591; /* secondary text on navy surfaces */
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-navy: var(--color-navy);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-label: var(--color-label);
+  --color-ivory: var(--color-ivory);
+  --color-card: var(--color-card);
+  --color-surface-alt: var(--color-surface-alt);
+  --color-muted: var(--color-muted);
+  --color-stone: var(--color-stone);
+  --color-burgundy: var(--color-burgundy);
+  --color-burgundy-dark: var(--color-burgundy-dark);
+  --color-navy-tint: var(--color-navy-tint);
+  --color-navy-muted: var(--color-navy-muted);
+
+  --font-heading: var(--font-playfair), "Georgia", serif;
+  --font-sans: var(--font-jakarta), "Segoe UI", sans-serif;
+
+  --container-page: 1280px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-heading);
+  }
+
+  ::selection {
+    background: var(--color-burgundy);
+    color: var(--color-ivory);
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid var(--color-burgundy);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer utilities {
+  .container-page {
+    width: 100%;
+    max-width: var(--container-page);
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  @media (min-width: 768px) {
+    .container-page {
+      padding-inline: 3rem;
+    }
+  }
+
+  .btn-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .eyebrow {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: var(--color-label);
+  }
+}

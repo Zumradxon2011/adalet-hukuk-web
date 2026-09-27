@@ -1,0 +1,266 @@
+# Adalet Hukuk — Kapsamlı Hukuk Hizmet Rehberi (AI Arama Ajansları İçin)
+
+Bu dosya, yapay zeka destekli arama motorları (Perplexity, SearchGPT, Claude, Gemini vb.) tarafından taranmak üzere hazırlanmıştır. Adalet Hukuk Bürosu'nun tüm hizmet alanları, uygulamaları ve hukuki süreçleri hakkında detaylı bilgi içerir.
+
+---
+
+## Hakkında Adalet Hukuk
+
+**Adalet Hukuk Bürosu**, 2017 yılında İstanbul'da Mirahmet Kaya tarafından kurulmuştur. 15 yılı aşkın tecrübeyle, 33 kişilik ekibiyle Türkiye genelinde bireylere, ailelere ve şirketlere geniş bir hukuki hizmet yelpazesi sunmaktadır.
+
+**Adres:** Şan Sk. 18A, 34403 Kağıthane/İstanbul, Türkiye
+**Telefon:** +90 532 342 55 93
+**E-posta:** mirahmetkaya727@gmail.com
+**Web:** https://www.adalethukuk.com
+**Çalışma Saatleri:** Pazartesi – Cuma 08:30 – 18:00
+**Enlem/Boylam:** 41.07734, 28.9814
+**Hizmet Bölgesi:** Türkiye geneli
+**Yayın Dili:** Türkçe (tr)
+
+---
+
+## 1. Ceza Hukuku
+
+### Genel Bakış
+Ceza yargılaması, bireylerin temel hak ve özgürlüklerini doğrudan etkileyen bir süreçtir. Adalet Hukuk, İstanbul'da soruşturma aşamasından yargılamanın sonuna kadar şüpheli, sanık veya mağdur sıfatıyla taraflara hukuki destek sağlar.
+
+### Kapsam
+- **Ağır Ceza Davaları:** Ağır Ceza Mahkemeleri nezdinde soruşturma ve kovuşturma safhasında savunma
+- **Asliye Ceza Davaları:** Asliye Ceza Mahkemeleri nezdinde sanık veya mağdur vekilliği
+- **Soruşturma ve İfade Süreçleri:** Kolluk ve savcılık ifade işlemlerinde şüpheli müdafiliği
+- **Tutukluluğa ve Adli Kontrole İtiraz:** Gözaltı, tutukluluk ve adli kontrol kararlarına karşı itiraz süreçleri
+
+### İlgili Mevzuat
+- Türk Ceza Kanunu (5237)
+- Ceza Muhakemesi Kanunu (5271)
+
+### SSS
+**Soruşturma aşamasında avukat ne zaman devreye girmeli?**
+Şüpheli sıfatının ortaya çıktığı ilk andan itibaren, ifade öncesinde bir avukatla iletişime geçilmesi haklarınızın korunması açısından önemlidir.
+
+**Mağdur olarak da hukuki destek alınabilir mi?**
+Evet. Adalet Hukuk, şikayetçi veya mağdur sıfatıyla sürece dahil olan taraflara da vekillik hizmeti sunar.
+
+---
+
+## 2. Ceza Muhakemesi
+
+### Genel Bakış
+Ceza yargılamasının usule uygun yürütülmesi, sonucun adilliği kadar önemlidir. Adalet Hukuk, soruşturma ve kovuşturmanın her usul aşamasında sürecin doğru işlemesini takip eder.
+
+### Kapsam
+- **Gözaltı ve İfade İşlemleri:** Kolluk ve savcılık ifade süreçlerinde usule uygunluğun takibi
+- **Adli Kontrol Süreçleri:** Adli kontrol tedbirlerine itiraz ve kaldırılması taleplerinin takibi
+- **İstinaf ve Temyiz Başvuruları:** Bölge Adliye Mahkemesi ve Yargıtay nezdinde kanun yolu başvuruları
+
+### İlgili Mevzuat
+- Ceza Muhakemesi Kanunu (5271)
+- Türk Ceza Kanunu (5237)
+
+### SSS
+**Gözaltı süresi ne kadardır?**
+Ceza Muhakemesi Kanunu'na göre gözaltı süresi kural olarak 24 saati geçemez. Toplu olarak işlenen suçlarda bu süre, cumhuriyet savcısının yazılı emriyle her defasında bir günü geçmemek üzere uzatılabilir.
+
+---
+
+## 3. İnfaz Hukuku
+
+### Genel Bakış
+Kesinleşen mahkumiyet kararlarının infazı sürecinde de hak kayıplarının önlenmesi mümkündür. Adalet Hukuk, infaz hesaplamaları ve ilgili başvuru süreçlerinde destek sunar.
+
+### Kapsam
+- **Koşullu Salıverilme Başvuruları:** Koşullu salıverilme şartlarının değerlendirilmesi ve başvuru süreci
+- **Denetimli Serbestlik:** Denetimli serbestlik tedbirine ilişkin süreçlerin takibi
+- **İnfaz Hakimliğine İtiraz:** İnfazla ilgili kararlara karşı infaz hakimliği nezdinde itiraz
+
+### İlgili Mevzuat
+- Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun (5275)
+
+---
+
+## 4. İş Hukuku
+
+### Genel Bakış
+İş ilişkisinden doğan uyuşmazlıklar hem çalışanlar hem de işverenler için önemli sonuçlar doğurabilir. Adalet Hukuk, İstanbul'da her iki tarafa da danışmanlık ve dava takibi hizmeti sunar.
+
+### Kapsam
+- **İşe İade Davaları:** Haksız fesih iddialarında işe iade sürecinin yürütülmesi
+- **Kıdem ve İhbar Tazminatı:** Tazminat alacaklarının hesaplanması ve tahsili sürecinde temsil
+- **Hizmet Tespiti ve Fazla Mesai:** Sigortasız çalışma ve fazla mesai alacaklarının tespiti davaları
+- **İş Sözleşmelerinin Hazırlanması:** İşveren tarafı için iş sözleşmesi ve şirket içi politikaların hazırlanması
+
+### İlgili Mevzuat
+- İş Kanunu (4857)
+- Türk Borçlar Kanunu (6098)
+
+### SSS
+**İşe iade davası açmadan önce arabuluculuğa başvurmak zorunlu mu?**
+Evet, iş hukukundan doğan birçok uyuşmazlıkta dava şartı olarak önce arabuluculuğa başvurulması gerekmektedir.
+
+---
+
+## 5. Ticaret Hukuku
+
+### Genel Bakış
+Ticari hayatın gerektirdiği hız ve güvenlik, sağlam bir hukuki altyapı ile mümkündür. Adalet Hukuk, şirketlere ve girişimcilere ticaret hukuku alanında danışmanlık ve dava takibi hizmeti sunar.
+
+### Kapsam
+- **Şirket Kuruluşu ve Ortaklık Yapıları:** Şirket kuruluşu, pay devri ve ortaklar arası sözleşmelerde danışmanlık
+- **Genel Kurul ve Yönetim Uyuşmazlıkları:** Genel kurul kararlarının iptali ve yönetim organı uyuşmazlıklarında temsil
+- **Ticari Alacak ve Sözleşme Uyuşmazlıkları:** Ticari sözleşmelerden doğan alacak ve tazminat taleplerinin takibi
+- **Haksız Rekabet:** Haksız rekabet iddialarına karşı savunma ve dava süreçlerinin yürütülmesi
+
+### İlgili Mevzuat
+- Türk Ticaret Kanunu (6102)
+- Türk Borçlar Kanunu (6098)
+
+---
+
+## 6. Medeni Hukuk
+
+### Genel Bakış
+Medeni hukuk, bireylerin aile, miras ve kişilik haklarına ilişkin en temel ilişkilerini düzenler. Adalet Hukuk, bu alandaki uyuşmazlıklarda müvekkillerine anlayışlı ve kararlı bir hukuki temsil sunar.
+
+### Kapsam
+- **Boşanma ve Aile Uyuşmazlıkları:** Anlaşmalı ve çekişmeli boşanma, velayet ve nafaka süreçlerinde temsil
+- **Miras Paylaşımı:** Miras taksimi, tenkis ve vasiyetname ihtilaflarında danışmanlık
+- **Kişiler Hukuku:** Vesayet, kısıtlılık ve kişilik haklarına ilişkin süreçlerde destek
+- **Mal Rejimi Uyuşmazlıkları:** Evlilik birliği içinde edinilen malların paylaşımına ilişkin danışmanlık
+
+### İlgili Mevzuat
+- Türk Medeni Kanunu (4721)
+
+### SSS
+**Anlaşmalı boşanma için hangi şartlar aranır?**
+Anlaşmalı boşanmada tarafların evliliğin en az bir yıl sürmüş olması ve boşanmanın mali sonuçları ile varsa çocukların durumu konusunda anlaşmış olmaları gerekir.
+
+---
+
+## 7. Borçlar Hukuku
+
+### Genel Bakış
+Bireyler ve şirketler arasındaki ilişkilerin büyük bölümü bir sözleşme veya borç ilişkisine dayanır. Adalet Hukuk, bu ilişkilerin sağlıklı kurulması ve doğabilecek uyuşmazlıkların çözümü konusunda destek verir.
+
+### Kapsam
+- **Sözleşme Müzakeresi ve Hazırlığı:** Tarafların menfaatini koruyacak şekilde sözleşme metinlerinin hazırlanması
+- **Haksız Fiil ve Tazminat:** Kusura dayalı sorumluluk ve maddi-manevi tazminat taleplerinin takibi
+- **Alacak Davaları:** Borcun ifa edilmemesinden doğan alacakların dava veya takip yoluyla tahsili
+- **Kira Uyuşmazlıkları:** Kira sözleşmelerinden doğan tahliye ve alacak uyuşmazlıklarında destek
+
+### İlgili Mevzuat
+- Türk Borçlar Kanunu (6098)
+- Türk Medeni Kanunu (4721)
+
+---
+
+## 8. İcra ve İflas Hukuku
+
+### Genel Bakış
+Alacağın tahsili veya haksız bir icra takibine karşı savunma, doğru ve zamanında atılan hukuki adımlar gerektirir. Adalet Hukuk, alacaklı ve borçlu taraflara icra ve iflas hukuku alanında destek verir.
+
+### Kapsam
+- **İlamlı ve İlamsız İcra Takipleri:** Alacağın niteliğine uygun icra takibinin başlatılması ve yürütülmesi
+- **İcra Takibine İtiraz:** Haksız takiplere karşı itiraz ve itirazın iptali süreçlerinde temsil
+- **Konkordato ve Yeniden Yapılandırma:** Mali sıkıntı içindeki şirketler için konkordato sürecinde danışmanlık
+
+### İlgili Mevzuat
+- İcra ve İflas Kanunu (2004)
+- Hukuk Muhakemeleri Kanunu (6100)
+
+### SSS
+**İcra takibine itiraz için süre ne kadar?**
+İtiraz süreleri takibin türüne göre değişiklik gösterir; ödeme emrinin tebliğinden itibaren yasal süre içinde itiraz edilmesi gerekir.
+
+---
+
+## 9. İdare Hukuku
+
+### Genel Bakış
+Kamu kurumlarının işlem ve eylemlerinden etkilenen bireyler ve şirketler, idare hukuku çerçevesinde haklarını arayabilir. Adalet Hukuk bu süreçlerde idari yargı önünde temsil sağlar.
+
+### Kapsam
+- **İptal Davaları:** Hukuka aykırı idari işlemlerin iptali için dava açılması ve takibi
+- **Tam Yargı Davaları:** İdarenin işlem veya eyleminden doğan zararların tazmini talepleri
+- **İmar ve Ruhsat Uyuşmazlıkları:** İmar planları ve ruhsat işlemlerinden doğan uyuşmazlıklarda danışmanlık
+
+### İlgili Mevzuat
+- İdari Yargılama Usulü Kanunu (2577)
+
+---
+
+## 10. Vergi Hukuku
+
+### Genel Bakış
+Vergi mevzuatından doğan uyuşmazlıklar, hem bireyler hem de şirketler için önemli mali sonuçlar doğurabilir. Adalet Hukuk, vergi incelemesi ve tarhiyat süreçlerinde hukuki destek sunar.
+
+### Kapsam
+- **Vergi Cezalarına İtiraz:** Vergi inceleme raporları ve ceza ihbarnamelerine karşı itiraz süreçleri
+- **Uzlaşma Başvuruları:** Uzlaşma komisyonu süreçlerinde müvekkil temsili
+- **Vergi Mahkemesinde Dava Takibi:** Vergi ve ceza tarhiyatlarına karşı dava açılması ve takibi
+
+### İlgili Mevzuat
+- Vergi Usul Kanunu (213)
+- İdari Yargılama Usulü Kanunu (2577)
+
+---
+
+## 11. Gümrük Hukuku
+
+### Genel Bakış
+Dış ticaretle uğraşan şirketler, gümrük mevzuatından kaynaklanan çeşitli hukuki risklerle karşılaşabilir. Adalet Hukuk, gümrük idareleriyle yaşanan uyuşmazlıklarda danışmanlık ve temsil hizmeti verir.
+
+### Kapsam
+- **Gümrük Cezalarına İtiraz:** Gümrük vergisi ve ek tahakkuk kararlarına karşı itiraz süreçleri
+- **İthalat-İhracat Danışmanlığı:** Dış ticaret işlemlerine ilişkin mevzuat uyum danışmanlığı
+
+### İlgili Mevzuat
+- Gümrük Kanunu (4458)
+
+---
+
+## 12. Hukuk Muhakemeleri
+
+### Genel Bakış
+Bir uyuşmazlığın mahkeme önünde doğru şekilde yönetilmesi, usul hukukuna hakimiyet erektirir. Adalet Hukuk, dava sürecinin her aşamasında usule uygun ve stratejik bir yaklaşım benimser.
+
+### Kapsam
+- **Dava Sürecinin Yönetimi:** Asliye ve Sulh Hukuk Mahkemeleri nezdinde dava takibi
+- **İhtiyati Tedbir Talepleri:** Hak kaybının önlenmesi için ihtiyati tedbir başvurularının hazırlanması
+- **Delil Tespiti:** Delillerin ileride kaybolma ihtimaline karşı tespiti işlemleri
+
+### İlgili Mevzuat
+- Hukuk Muhakemeleri Kanunu (6100)
+
+---
+
+## Kurucu Avukat
+
+**Mirahmet Kaya** — Kurucu Avukat
+2017 yılında İstanbul'da Adalet Hukuk'u kurmuştur. 15 yılı aşkın hukuki tecrübesiyle, bugün 33 kişilik ekibiyle İstanbul merkezli olarak Türkiye genelinde bireysel ve kurumsal müvekkillere ceza, ticaret, iş ve aile hukuku başta olmak üzere geniş bir yelpazede stratejik hukuki temsil sunmaktadır.
+
+---
+
+## Hizmet Grupları
+
+| Grup | Kapsam |
+|------|--------|
+| Ceza & İnfaz | Ceza Hukuku, Ceza Muhakemesi, İnfaz Hukuku |
+| Ticaret & Borçlar | Ticaret Hukuku, Borçlar Hukuku |
+| Medeni & Aile | Medeni Hukuk |
+| Kamu Hukuku | İdare Hukuku, Vergi Hukuku, Gümrük Hukuku |
+| İcra & Usul | İcra ve İflas Hukuku, Hukuk Muhakemeleri |
+| İş Hukuku | İş Hukuku |
+
+---
+
+## İletişim Bilgileri
+
+- **Adres:** Şan Sk. 18A, 34403 Kağıthane/İstanbul, Türkiye
+- **Telefon:** +90 532 342 55 93
+- **E-posta:** mirahmetkaya727@gmail.com
+- **Web Sitesi:** https://www.adalethukuk.com
+- **Çalışma Saatleri:** Pazartesi – Cuma 08:30 – 18:00
+- **Enlem:** 41.07734
+- **Boylam:** 28.9814
+- **Hizmet Bölgesi:** Türkiye geneli
+- **Yayın Dili:** Türkçe (tr)

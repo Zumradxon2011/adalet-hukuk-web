@@ -4,7 +4,9 @@ import { practiceAreas } from "@/lib/content/practice-areas";
 import { lawyers } from "@/lib/content/lawyers";
 import { articles } from "@/lib/content/articles";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const currentDate = new Date();
+
   const staticRoutes = [
     "",
     "/hakkimizda",
@@ -17,29 +19,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/cerez-politikasi",
   ].map((path) => ({
     url: `${siteConfig.url}${path}`,
-    changeFrequency: "monthly" as const,
-    priority: path === "" ? 1 : 0.7,
+    lastModified: currentDate,
+    changeFrequency: "weekly" as const,
+    priority: path === "" ? 1.0 : 0.8,
   }));
 
   const practiceAreaRoutes = practiceAreas.map((area) => ({
     url: `${siteConfig.url}/hukuk-alanlari/${area.slug}`,
-    changeFrequency: "monthly" as const,
-    priority: 0.8,
+    lastModified: currentDate,
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
   }));
 
   const lawyerRoutes = lawyers
     .filter((lawyer) => lawyer.hasFullProfile)
     .map((lawyer) => ({
       url: `${siteConfig.url}/avukatlar/${lawyer.slug}`,
-      changeFrequency: "yearly" as const,
-      priority: 0.6,
+      lastModified: currentDate,
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
     }));
 
   const articleRoutes = articles.map((article) => ({
     url: `${siteConfig.url}/makaleler/${article.slug}`,
-    lastModified: article.publishedAt,
-    changeFrequency: "yearly" as const,
-    priority: 0.5,
+    lastModified: article.publishedAt ? new Date(article.publishedAt) : currentDate,
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
   }));
 
   return [...staticRoutes, ...practiceAreaRoutes, ...lawyerRoutes, ...articleRoutes];

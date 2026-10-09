@@ -10,6 +10,18 @@ type BuildMetadataInput = {
 };
 
 /**
+ * Shared social preview image. `app/opengraph-image.tsx` renders this route
+ * at build time (1200×630 PNG), so every page gets a valid absolute URL.
+ */
+const ogImageUrl = `${siteConfig.url}/opengraph-image`;
+const ogImage = {
+  url: ogImageUrl,
+  width: 1200,
+  height: 630,
+  type: "image/png",
+};
+
+/**
  * Builds unique, canonical-aware metadata for a page. Always pass a
  * page-specific title/description — never reuse across routes.
  */
@@ -32,11 +44,13 @@ export function buildMetadata({ title, description, path, noIndex }: BuildMetada
       siteName: siteConfig.name,
       locale: "tr_TR",
       type: "website",
+      images: [{ ...ogImage, alt: title }],
     },
     twitter: {
-      card: "summary",
+      card: "summary_large_image",
       title,
       description,
+      images: [ogImageUrl],
     },
   };
 }
@@ -48,6 +62,10 @@ export function buildMetadata({ title, description, path, noIndex }: BuildMetada
  * are included for maximum GEO/AIO coverage.
  */
 export function organizationJsonLd() {
+  // sameAs is only emitted when official profiles exist — siteConfig.social is
+  // deliberately empty (no fabricated social presence).
+  const sameAs = Object.values(siteConfig.social);
+
   const legalService = {
     "@type": "LegalService",
     "@id": `${siteConfig.url}/#organization`,
@@ -55,6 +73,11 @@ export function organizationJsonLd() {
     legalName: siteConfig.legalName,
     description: siteConfig.description,
     url: siteConfig.url,
+    logo: {
+      "@type": "ImageObject",
+      url: `${siteConfig.url}/icon.svg`,
+    },
+    ...(sameAs.length > 0 ? { sameAs } : {}),
     telephone: siteConfig.contact.phone,
     email: siteConfig.contact.email,
     foundingDate: String(siteConfig.foundedYear),
@@ -155,9 +178,20 @@ export function organizationJsonLd() {
     paymentAccepted: "Cash, Bank Transfer",
   };
 
+  const website = {
+    "@type": "WebSite",
+    "@id": `${siteConfig.url}/#website`,
+    url: siteConfig.url,
+    name: siteConfig.name,
+    inLanguage: "tr",
+    publisher: {
+      "@id": `${siteConfig.url}/#organization`,
+    },
+  };
+
   return {
     "@context": "https://schema.org",
-    "@graph": [legalService, attorney, localBusiness],
+    "@graph": [legalService, attorney, localBusiness, website],
   };
 }
 
@@ -207,11 +241,25 @@ export function articleJsonLd(input: {
     headline: input.title,
     description: input.description,
     datePublished: input.datePublished,
+    // No separate edit history exists for articles, so the publish date doubles
+    // as dateModified until an explicit updatedAt field is added to content.
+    dateModified: input.datePublished,
+    image: [`${siteConfig.url}/opengraph-image`],
+    author: {
+      "@type": "Organization",
+      name: siteConfig.name,
+      url: siteConfig.url,
+    },
+    mainEntityOfPage: `${siteConfig.url}/makaleler/${input.slug}`,
     url: `${siteConfig.url}/makaleler/${input.slug}`,
     publisher: {
       "@type": "Organization",
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: {
+        "@type": "ImageObject",
+        url: `${siteConfig.url}/icon.svg`,
+      },
     },
   };
 }

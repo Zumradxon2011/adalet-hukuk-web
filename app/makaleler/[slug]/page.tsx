@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Cta } from "@/components/ui/cta";
 import { articles, getArticleBySlug } from "@/lib/content/articles";
@@ -104,8 +103,7 @@ export default async function ArticleDetailPage({ params }: { params: Promise<Pa
         </div>
       </article>
 
-      <Script
-        id={`article-jsonld-${article.slug}`}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(

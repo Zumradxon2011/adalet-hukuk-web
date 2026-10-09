@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Cta } from "@/components/ui/cta";
 import { MethodologySection } from "@/components/practice-areas/methodology-section";
@@ -62,7 +61,7 @@ export default async function PracticeAreaDetailPage({
               {area.title} Departmanı · {area.categoryLabel}
             </p>
             <h1 className="mt-3 font-heading text-3xl font-semibold text-ink md:text-4xl lg:text-5xl">
-              {area.title} Danışmanlığı ve Hukuki Temsil
+              {area.title} Avukatı İstanbul — Danışmanlık ve Hukuki Temsil
             </h1>
             <div className="mt-5 max-w-2xl space-y-4 text-base leading-relaxed text-ink-soft md:text-lg">
               {area.intro.map((paragraph) => (
@@ -163,8 +162,7 @@ export default async function PracticeAreaDetailPage({
       </section>
 
       {faqSchema && (
-        <Script
-          id={`faq-jsonld-area-${area.slug}`}
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />

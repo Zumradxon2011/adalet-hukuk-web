@@ -15,9 +15,9 @@ export function Hero() {
           </div>
 
           <h1 className="mt-6 font-heading text-4xl font-semibold leading-[1.15] text-ink md:text-5xl lg:text-[3.5rem] lg:leading-[1.12]">
-            Hukukta tecrübe.
+            İstanbul Hukuk Bürosu
             <br />
-            Stratejide güven.
+            Hukukta tecrübe, Stratejide güven.
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-ink-soft md:text-lg">

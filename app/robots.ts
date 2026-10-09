@@ -19,11 +19,43 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
       {
+        userAgent: "ChatGPT-User",
+        allow: "/",
+      },
+      {
         userAgent: "PerplexityBot",
         allow: "/",
       },
       {
+        userAgent: "Perplexity-User",
+        allow: "/",
+      },
+      {
+        userAgent: "ClaudeBot",
+        allow: "/",
+      },
+      {
+        userAgent: "Claude-User",
+        allow: "/",
+      },
+      {
+        userAgent: "anthropic-ai",
+        allow: "/",
+      },
+      {
         userAgent: "Google-Extended",
+        allow: "/",
+      },
+      {
+        userAgent: "Applebot-Extended",
+        allow: "/",
+      },
+      {
+        userAgent: "Bingbot",
+        allow: "/",
+      },
+      {
+        userAgent: "YandexBot",
         allow: "/",
       },
     ],

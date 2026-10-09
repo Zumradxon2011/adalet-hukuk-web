@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Script from "next/script";
 import { Breadcrumbs } from "@/components/ui/breadcrumbs";
 import { Cta } from "@/components/ui/cta";
 import { getLawyerBySlug, lawyers } from "@/lib/content/lawyers";
@@ -102,8 +101,7 @@ export default async function LawyerDetailPage({ params }: { params: Promise<Pag
       </section>
 
       {lawyer.isFounder && (
-        <Script
-          id="person-jsonld-founder"
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Script from "next/script";
 import { breadcrumbJsonLd } from "@/lib/seo";
 
 export type BreadcrumbItem = {
@@ -29,8 +28,9 @@ export function Breadcrumbs({ items }: { items: BreadcrumbItem[] }) {
           );
         })}
       </ol>
-      <Script
-        id={`breadcrumb-jsonld-${items[items.length - 1]?.path}`}
+      {/* Plain inline script (not next/script) so the schema exists in the
+          prerendered HTML for non-JS crawlers. */}
+      <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd(items)) }}
       />
